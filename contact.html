@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9_lfs7kn9ubPn8XByBmZE_MeX1kq7Y_HrBw&usqp=CAU"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contacts.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crteate Education WebSite</title>
+  </head>
+  <body>
+    <!-- Nav Section starts -->
+    <nav>
+      <div class="container nav-container">
+        <a href="index.html"><h4>Colba</h4></a>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+        <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </nav>
+    <!-- Nav Section ends -->
+    <!-- Contact Section starts -->
+    <section class="contact">
+      <div class="container contact-container">
+        <aside class="contact-aside">
+          <div class="aside-image">
+            <img src="./Screenshot_1.png" alt="it's here pictures" />
+          </div>
+          <h2>Contact Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+            perferendis doloremque temporibus maiores ipsa alias veritatis.
+          </p>
+          <ul class="contact-details">
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <h5>+998(93) 599-02-46</h5>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <h5>majitovsunnatilla03@gmail.com</h5>
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <h5>Uzbekistan , Tashkent</h5>
+            </li>
+          </ul>
+          <ul class="contact-socials">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </aside>
+        <form action="https://formspree.io/f/xwkzqrdr" method="POST" class="contact-form">
+          <div class="form-name">
+            <input type="text" placeholder="first name" name="First Name" required>
+            <input type="text" placeholder="last name" name="Last Name" required>
+          </div>
+          <input type="email" name="Email Adress" placeholder="your email adress" required>
+          <textarea name="Message" rows="7" placeholder="message...." required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section ends -->
+    <!-- Footer Section starts -->
+    <footer>
+      <div class="container footer-container">
+        <div class="footer-1">
+          <a href="index.html" class="footer-logo"><h4>Colba</h4></a>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
+            mollitia perspiciatis cumque, tempora esse aperiam.
+          </p>
+        </div>
+        <div class="footer-2">
+          <h4>Permalinks</h4>
+          <ul class="permalinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-3">
+          <h4>Primacy</h4>
+          <ul class="privacy">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and conditions</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-4">
+          <h4>Contact Us</h4>
+          <div>
+            <p>+998(93)599-02-46</p>
+            <p>majitovsunnatilla03@gmail.com</p>
+          </div>
+          <ul class="footer-socials">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <small>Copyright &copy; Colba Education You Tube Tutorials</small>
+      </div>
+    </footer>
+    <!-- Footer Section ends -->
+    <script src="./app.js"></script>
+  </body>
+</html>
